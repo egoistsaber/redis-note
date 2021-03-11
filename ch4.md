@@ -56,7 +56,7 @@ typedef struct dict {
   
   // rehash索引，但rehash不在进行时，值为-1
   // 记录了rehash的进度
-  int trehashidx; 
+  int rehashidx; 
 } dict;
 ```
 
